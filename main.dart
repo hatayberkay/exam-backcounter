@@ -15,63 +15,6 @@ void main() {
   runApp(MyApp());
 
 
-  //https://www.youtube.com/watch?v=hpQenyqxTmw   -- Launcher icon chaning https://appicon.co/ site
-
-
- // C:\Users\user\Documents\flutter_windows_1.22.2-stable\flutter\bin
-
-  // "c:\Program Files(x86)\Java\jdk1.7.0\bin\keytool.exe" -list -v -alias androiddebugkey -keystore "C:\Users\EIS\.android\debug.keystore" -storepass android -keypass android
-
-
-    // REKLAM 1. ( 4 TANE VAR. ) BANNER VE TAM EKRANI GEÇİR LİVE TEMPLETE'A
-
-    // XML DOSYASINA EKLENİLECEK APP İD'Yİ VE PLUGGİNG'İN İSMİNİ DE EKLE. (Bu sefer farklı bir tane kullandık.)
-
-  // C:\ProgramFiles\Android\Android Studio\jre\bin\keytool.exe
-
- //  keytool -genkey -v -keystore c:\Users\user\key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
-
-  //  c:\Program Files (x86)\Java\jdk1.8.0_281\bin\keytool -genkey -v -keystore c:\Users\user\key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
-
-
-
-  // "C:\Program Files(x86)\Java\jdk1.8.0_281\bin\keytool.exe" -list -v -alias androiddebugkey -keystore "C:\Users\EIS\.android\debug.keystore" -storepass android -keypass android
-
-  // flutter doctor -v
-
-  // C:\Program Files\Android\Android Studio\jre\bin\java
-
-
-
-// >C:\Program Files (x86)\Java\jdk1.8.0_281\bin\keytool.exe -genkey -v -keystore c:\Users\user\key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
-
-// "C:\Program Files (x86)\Java\jdk1.8.0_281\bin\keytool.exe" -list -v -alias androiddebugkey -keystore "C:\Users\EIS\.android\debug.keystore" -storepass android -keypass android
-
-  // keytool -genkey -v -keystore c:\Users\USER_NAME\key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
-
-  // JAVA HOME  =====  C:\Program Files\Java\jdk1.8.0_131
-     // admob_flutter: ^1.0.1   import 'package:admob_flutter/admob_flutter.dart';
-  // REKLAM 2
-
-// C:\Program Files (x86)\Java\jdk1.8.0_281\bin\
-    //REKLAM 3
-
-
-// keytool -genkey -v -keystore
-// C:\Program Files\Java\jdk1.8.0_131\bin keytool -genkey -v -keystore c:\Users\user\key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
-
-// C:\Users\user\Documents\flutter_windows_1.22.2-stable\flutter\bin
-
-//ders_sayac
-
-// https://medium.com/@psyanite/how-to-sign-and-release-your-flutter-app-ed5e9531c2ac
-}
-
-
-// keytool -genkey -v -keystore c:\Users\user\key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
-
-
-// Yaratılan key'i kesinlikle dokunma.  Yerini değiştirme.
 
 
 class MyApp extends StatelessWidget {
@@ -161,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         body: Column(
 
-          // TYT , AYT , Ayarlar ( Shared kaydet notu ayt de kullan ) , ABOUT ,
+       
 
           children: <Widget>[
 
@@ -193,10 +136,7 @@ Row(
             onPressed: ()  {
               setState(() async {
 
-              /*  if (await interstitialAd.isLoaded) {
-                  interstitialAd.show();
-                }*/
-
+             
 
                 Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new TimerApp()));
               });
