@@ -11,6 +11,7 @@ It has 4 things. Image , 2 cardview left and right and 1 cardview that bottom.
 1. Cardview goes to TYT.dart
 2. Cardview goes to AYT.dart
 Last Cardview goes to About.dart
+Screen lock FOR lock up the screen
 
 Tyt.dart 
 * You can see how much minute left to exam.
